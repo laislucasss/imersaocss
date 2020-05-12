@@ -1,0 +1,40 @@
+body {
+    background-image: url(https://i1.wp.com/campcoeurdalene.com/wp-content/uploads/2014/01/pink-bg.jpg?fit=1920%2C1080);
+    background-size: auto 100vh;
+    backdrop-filter: blur(5px);
+    font-family: Arial;  
+    height: 100vh;
+  }
+  
+  .menu {
+    background-color: white;
+  }
+  
+  .menu ul {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .menu li {
+    list-style: none;
+    
+  }
+  
+  a {
+    color: #8B008B;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  .site-title, 
+  .site-subtitle {
+    text-align: center;
+    color: whitesmoke;
+  }
+  
+  .site-subtitle {
+    font-style: italic;
+  }
